@@ -1,7 +1,61 @@
 @import "normalize";
 @import "fluid-grid";
-@import "fonts";
 @import "syntax";
 
 /* # Global
 ================================================== */
+$main-orange: #FF6700;
+$main-blue: #2CC4F1;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: scroll;
+  background: #E6E6E6;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, .headline {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+a, a:visited {
+  color: $main-orange;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out,
+              border-color 0.2s ease-in-out,
+              background-color 0.2s ease-in-out;
+  &:hover, &:active, &:focus {
+    color: $main-blue;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-container {
+  padding: 0 0 0 0;
+}
+
+.site-inner {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}

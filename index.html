@@ -8,15 +8,9 @@ title: Celeste Pang | User Experience Designer
     <h1 class="intro-blurb">I design <strong>user experiences</strong>. Here's some of my work.</h1>
   </div>
   <div id="work">
-    <div class="grid-top">
-      {% for contact in site.data.contact %}
-        <a href="{{ contact.url }}" target='_blank'>{{ contact.label }}</a>
-        {% if forloop.last == false %}/{% endif %}
-      {% endfor %}
-    </div>
     <div class="container-12">
       {% for project in site.data.projects %}
-        <a href="{{ project.url }}" target='_blank' class="grid-4 tile work-content">
+        <a href="/portfolio/{{ project.slug }}" target='_blank' class="work-content">
           <div class="image-wrapper">
             <img src="{{ project.image_url }}" alt="{{ projects.title }} screen">
           </div>
