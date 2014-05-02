@@ -13,8 +13,17 @@
       url: https://itunes.apple.com/us/app/call-of-duty/id733712309?mt=8
     - label: Google Play
       url: https://play.google.com/store/apps/details?id=com.activision.callofduty.mobile
-- name: Call of Duty App Clans
-  slug: call-of-duty-app-clans
+- name: Call of Duty App Clan Preregistration
+  slug: call-of-duty-app-clan-preregistration
+  company: Activision
+  media:
+    - name: Web
+  roles:
+    - title: UX Designer
+    - title: UI Designer
+  timeline: Sept 2013 - Oct 2013
+- name: Call of Duty App Create a Squad
+  slug: call-of-duty-app-create-a-squad
   company: Activision
   media:
     - name: Tablet
@@ -28,3 +37,34 @@
       url: https://itunes.apple.com/us/app/call-of-duty/id733712309?mt=8
     - label: Google Play
       url: https://play.google.com/store/apps/details?id=com.activision.callofduty.mobile
+- name: Time-Me
+  slug: time-me
+  media:
+    - name: Physical
+  roles:
+    - title: Prototyper
+    - title: Technical Writer
+    - title: Illustrator
+  timeline: Feb 2011 - Apr 2011
+  links:
+    - label: Time-Me.ca
+      url: http://www.time-me.ca
+    - label: Time-Me Paper
+      url: http://dl.acm.org/citation.cfm?id=2307142&dl=ACM&coll=DL
+- name: Nokia Developer Common Profile
+  slug: nokia-developer-common-profile
+  media:
+    - name: Web
+  roles:
+    - title: UX Designer
+  timeline: May 2012 - Jun 2012
+- name: Sky Riders Logo
+  slug: sky-riders-logo
+  media:
+    - name: Branding
+  roles:
+    - title: Logo Designer
+  timeline: Jan 2012
+  links:
+    - label: Pixelante
+      url: http://www.pgstudios.org/
