@@ -1,0 +1,30 @@
+- name: Call of Duty App Clans
+  slug: call-of-duty-app-clans
+  company: Activision
+  media:
+    - name: Tablet
+    - name: Mobile
+  roles:
+    - title: UX Designer
+    - title: UI Designer
+  timeline: Feb 2013 - Nov 2013
+  links:
+    - label: App Store
+      url: https://itunes.apple.com/us/app/call-of-duty/id733712309?mt=8
+    - label: Google Play
+      url: https://play.google.com/store/apps/details?id=com.activision.callofduty.mobile
+- name: Call of Duty App Clans
+  slug: call-of-duty-app-clans
+  company: Activision
+  media:
+    - name: Tablet
+    - name: Mobile
+  roles:
+    - title: UX Designer
+    - title: UI Designer
+  timeline: Feb 2013 - Nov 2013
+  links:
+    - label: App Store
+      url: https://itunes.apple.com/us/app/call-of-duty/id733712309?mt=8
+    - label: Google Play
+      url: https://play.google.com/store/apps/details?id=com.activision.callofduty.mobile
