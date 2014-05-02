@@ -1,0 +1,25 @@
+{
+  "name": "pBun.github.io",
+  "version": "0.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixeltheory/pixeltheory.github.io.git"
+  },
+  "author": "Dustin Boersma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pixeltheory/pixeltheory.github.io/issues"
+  },
+  "homepage": "https://pixeltheory.github.io",
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-concat": "^2.2.0",
+    "gulp-uglify": "^0.2.1",
+    "gulp-ruby-sass": "^0.4.3",
+    "gulp-autoprefixer": "0.0.7",
+    "gulp-minify-css": "^0.3.1",
+    "gulp-imagemin": "^0.2.0",
+    "gulp-cache": "^0.1.3"
+  }
+}

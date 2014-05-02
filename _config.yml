@@ -1,0 +1,9 @@
+name: pixeltheory.github.io
+description: Celeste Pang
+
+exclude: ['_source']
+include: ['.htaccess']
+markdown: redcarpet
+pygments: true
+safe: true
+lsi: false
