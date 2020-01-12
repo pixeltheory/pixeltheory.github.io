@@ -8,29 +8,4 @@ title: this is the title of your page
     <h1>One day I'll have a portfolio again.</h1>
     <p>Today is not that day.</p>
   </div>
-  <div id="work">
-    <div class="grid-top">
-      {% for contact in site.data.contact %}
-        <a href="{{ contact.url }}" target='_blank'>{{ contact.label }}</a>
-        {% if forloop.last == false %}/{% endif %}
-      {% endfor %}
-    </div>
-    <div class="container-12">
-      {% for project in site.data.projects %}
-        <a href="{{ project.url }}" target='_blank' class="grid-4 tile work-content">
-          <div class="image-wrapper">
-            <img src="{{ project.image_url }}" alt="{{ projects.title }} screen">
-          </div>
-          <h2><span>{{ project.company_label }}</span>{{ project.title }}</h2>
-          <div class="details">
-            <span>
-            {% for role in project.roles %}
-              {{ role.title }}{% if forloop.last == false %},{% endif %}
-            {% endfor %}
-            </span>
-          </div>
-        </a>
-      {% endfor %}
-    </div>
-  </div>
 </div>
